@@ -11,12 +11,12 @@ Here is the result for the single variable model (LSTM1):
 And here is the result for the multivariable model (LSTM2) with 100 epochs:
 ![alt text](https://raw.githubusercontent.com/GuintherKovalski/RNN-to-Predict-Brazil-GDP-in-Keras/master/BRAZIL.png)
 
-and with 1000 epochs
+and with 1000 epochs:
 
 ![alt text](https://raw.githubusercontent.com/GuintherKovalski/RNN-to-Predict-Brazil-GDP-in-Keras/master/BRA82-18.png)
 
 
-to use the multivariable model a lot of pre processing was made, one of then is complete the missing data. To do it i used logarithm, exponential and linear regression, and chose the one with the smaller error. Some of the completed data is the follows:
+to use the multivariable model a lot of pre processing was made, one of then is complete the missing data. To do it i used logarithm, exponential and linear regression, and chose the one with the smaller error. Some of the completed data are the follows:
 
 ![alt text](https://raw.githubusercontent.com/GuintherKovalski/RNN-to-Predict-Brazil-GDP-in-Keras/master/Agriculture%2C%20forestry%2C%20and%20fishing%2C%20value%20added%20(constant%202010%20US%24).png)
 
