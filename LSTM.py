@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 # Importing and cleaning the dataset
-GDP = pd.read_csv('GDP.csv')
+GDP = pd.read_csv('GDP_only.csv')
 GDP.fillna(0,inplace=True)
 GDP = GDP.T
 GDP=np.array(GDP)
