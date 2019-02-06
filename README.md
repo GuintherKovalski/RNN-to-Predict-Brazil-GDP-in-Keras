@@ -30,6 +30,8 @@ The official prediction of GDP from Brazilian central bank is 2.5%
 
 To do:
 
+  Split data in train/test/validation
+
   Create a lib for data completion instead of using it inside the main algorithm.
   
   Formating the data and make the prediction for the next years with the multi var model.
