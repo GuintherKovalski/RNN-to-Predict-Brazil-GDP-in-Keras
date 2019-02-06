@@ -28,6 +28,9 @@ I also predicted the GDP for the next years. This is the result with the single 
 
 The official prediction of GDP from Brazilian central bank is 2.5%
 
+To do:
 
-
+  Create a lib for data completion instead of using it inside the main algorithm
+  Formating the data and make the prediction for the next years with the multi var model
+  Create and train a model with fewer variables, with more parcimony. Need some help to chose. 
 
